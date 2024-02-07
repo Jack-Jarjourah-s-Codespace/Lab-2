@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" class="nojs">
+
 <head>
   <title>Lab 2</title>
   <meta charset="utf-8" />
@@ -7,7 +8,75 @@
   <link rel="stylesheet" media="screen" href="css/meyersreset-and-normalize-form.css" />
   <link rel="stylesheet" media="screen" href="css/screen.css" />
 </head>
-<body>
 
+<body>
+  <form action="#null" method="get" autocomplete="on">
+
+    <fieldset>
+      <label>Email Address</label>
+      <input class="userinput" type="text" name="email_field" placeholder="RamiMalek@IIT.edu">
+      <label>Phone Number</label>
+      <input class="userinput" type="text" name="number_field" placeholder="312-123-456">
+
+      <label>Date of Birth</label>
+
+      <label for="day"></label>
+      <select id="day" name="day_field">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+        <option value="25">25</option>
+        <option value="26">26</option>
+        <option value="27">27</option>
+        <option value="28">28</option>
+        <option value="29">29</option>
+        <option value="30">30</option>
+        <option value="31">31</option>
+      </select>
+
+
+      <select class="birthdate" name="month_field">
+        <option>January</option>
+        <option>February</option>
+        <option>March</option>
+        <option>April</option>
+        <option>May</option>
+        <option>June</option>
+        <option>July</option>
+        <option>August</option>
+        <option>September</option>
+        <option>October</option>
+        <option>November</option>
+        <option>December</option>
+      </select>
+
+      <input class="birthdate" type="text" name="year_field" placeholder="year">
+    </fieldset>
+
+  </form>
+
+  <button id="button">Submit!</button>
 </body>
+
 </html>
